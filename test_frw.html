@@ -1,0 +1,13 @@
+<html><head><title> Test Page</title><script type="text/javascript" async>
+var size = 8524839;
+                                                                        
+function getSize(){
+	if (document.getElementById('percent') != undefined) {
+		if (document.getElementById('test')!=undefined) {
+			pr = Math.round(document.getElementById('test').innerHTML.length*100/200);
+			document.getElementById('percent').innerHTML = pr+'%';
+			document.getElementById('progressBar').style.width = pr*0.8 + '%';
+		}
+	}
+}
+</script></head></html>
